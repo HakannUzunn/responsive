@@ -1,0 +1,87 @@
+#magazine {
+    width: 2425px;
+  }
+  
+  .navigator {
+    display: flex;
+    flex-direction: row;
+    margin-left: 78%;
+  }
+  
+  
+  .categories {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-left:5px;
+      align-items: center;
+      
+  }
+  
+  #all-category{
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  
+  #all-category:hover{
+    color: rgb(255, 255, 255);
+    background-color: gray;
+  }
+  
+  #art-category{
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  
+  #art-category:hover{
+    color: rgb(255, 255, 255);
+    background-color: gray;
+  }
+  
+  #street-art-category {
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  
+  #street-art-category:hover{
+    color: rgb(255, 255, 255);
+    background-color: gray;
+  }
+  
+  #sculpture-category{
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  
+  #sculpture-category:hover{
+    color: rgb(255, 255, 255);
+    background-color: gray;
+  }
+  
+  .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      border: 1px solid black;
+     
+    }
+    .grid-item {
+      text-align: center;
+      border: 1px solid gray;
+      padding: 0px;
+      
+    }
+    .grid-item img {
+      width: 200px 200px;
+     
+    }
+   
+    .grid-item h3 {
+      margin-left:180px;
+      text-align: left;
+      font-size: 30px;
+    }
+    .grid-item p {
+      text-align: left;
+      margin-left: 180px;
+    }
+  

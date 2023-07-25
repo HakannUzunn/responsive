@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 600px;
+    margin: 20px;
+}
+
+
+
+.footer h4{
+color: white;
+font-size: 80px;
+margin: 50px 200px;
+}
+
+footer input{
+  height: 50px;
+  width: 300px;
+  margin-top: 150px;
+}
+
+button {
+  height: 50px;
+  width: 100px;
+}
